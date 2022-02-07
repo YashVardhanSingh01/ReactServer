@@ -47,7 +47,7 @@ var dishSchema = new Schema({
     price: {
         type: Currency,
         required: true,
-        min: 1
+        min: 0
     },
     featured: {
         type: Boolean,
